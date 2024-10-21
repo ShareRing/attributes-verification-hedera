@@ -1,0 +1,17 @@
+{
+  "name": "attributes-verification-hedera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "verify": "node src/verify.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.52.0",
+    "dotenv": "^16.4.5"
+  }
+}
