@@ -29,10 +29,14 @@ Create a `.env` file in the root directory and set the environment variables. Yo
 
 ## Usage
 
-To verify attributes, run the following command:
+To verify attributes using the Hedera SDK:
 
 ```bash
 pnpm verify
 ```
 
-This will execute the `verify.js` script, which verifies the attributes and prints the result to the console.
+To verify attributes using ethers.js:
+
+```bash
+pnpm verify:ethers
+```
